@@ -1,0 +1,19 @@
+[
+{
+"given": {
+  "a": 4,
+  "b": [3, 4, 5],
+  "c": { "d" : 4, "e" : 5 }
+},
+"cases": [
+  {
+    "expression": "length(descent(@)[?@ == `4`])",
+    "result": 3
+  },
+  {
+    "expression": "given == descent(given)[0]",
+    "result": true
+  }
+]
+}
+]
