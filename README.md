@@ -11,6 +11,6 @@ A variadic function taking one or more lists as arguments which returns the Cart
     
 ### Example
 
-Expression: `product( ``["a", "b"]``, ``["c", "d"]``)`
+Expression: ``product( `["a", "b"]`, `["c", "d"]`)``
 
 Gives: `[ ["a", "c"], ["a", "d"], ["b", "c"], ["b", "d"] ]`
