@@ -13,7 +13,15 @@
   {
     "expression": "given == descent(given)[0]",
     "result": true
-  }
+  },
+  {
+    "expression": "length(descent(b))",
+    "result": 4,
+  },
+  {
+    "expression": "length(descent(c))",
+    "result": 3,
+  },
 ]
 }
 ]
