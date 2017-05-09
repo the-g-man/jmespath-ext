@@ -16,12 +16,12 @@
     "result": true
   },
   {
-    "expression": "length(product(a, b, c)) == length(a) * length(b) * length(c)",
-    "result": true
-  },
-  {
     "expression": "product(a, d)",
     "result": []
+  },
+  {
+    "expression": "length(product(a, b, c))",
+    "result": 18
   }
 ]
 }
