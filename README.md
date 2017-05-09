@@ -9,7 +9,7 @@ New functions for JMESPath
     
 A variadic function taking one or more lists as arguments which returns the Cartesian product of those lists.
     
-### Example
-
-| **Expression** | ``product( `["a", "b"]`, `["c", "d"]`)`` |
-| **Gives**  |`[ ["a", "c"], ["a", "d"], ["b", "c"], ["b", "d"] ]` |
+| Example |     |
+| ------- | --- |
+| Expression | ``product( `["a", "b"]`, `["c", "d"]`)`` |
+| Gives  |`[ ["a", "c"], ["a", "d"], ["b", "c"], ["b", "d"] ]` |
